@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Grade Calculator</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h2>Weighted Grade Calculator</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Mark</td>
+                    <td><input type="text" size="3" id="mark1" />%</td>
+                    <td>Weight</td>
+                    <td><input type="text" size="3" id="weight1" />%</td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td><input type="text" size="3" id="mark2" />%</td>
+                    <td>Weight</td>
+                    <td><input type="text" size="3" id="weight2" />%</td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td><input type="text" size="3" id="mark3" />%</td>
+                    <td>Weight</td>
+                    <td><input type="text" size="3" id="weight3" />%</td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td><input type="text" size="3" id="mark4" />%</td>
+                    <td>Weight</td>
+                    <td><input type="text" size="3" id="weight4" />%</td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td><input type="text" size="3" id="mark5" />%</td>
+                    <td>Weight</td>
+                    <td><input type="text" size="3" id="weight5" />%</td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td><input type="text" size="3" id="mark6" />%</td>
+                    <td>Weight</td>
+                    <td><input type="text" size="3" id="weight6" />%</td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td><input type="text" size="3" id="mark7" />%</td>
+                    <td>Weight</td>
+                    <td><input type="text" size="3" id="weight7" />%</td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td><input type="text" size="3" id="mark8" />%</td>
+                    <td>Weight</td>
+                    <td><input type="text" size="3" id="weight8" />%</td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td><input type="text" size="3" id="mark9" />%</td>
+                    <td>Weight</td>
+                    <td><input type="text" size="3" id="weight9" />%</td>
+                </tr>
+                <tr>
+                    <td>Mark</td>
+                    <td><input type="text" size="3" id="mark10" />%</td>
+                    <td>Weight</td>
+                    <td><input type="text" size="3" id="weight10" />%</td>
+                </tr>
+            </table>
+            <input type="button" value="Calculate" class="button" id="weightedButton" />
+            <h3>Weighted Average: <span id="weightedAverage">0</span>%</h3>
+            <h3>Total Earned: <span id="total">0</span>%</h3>
+            <h3>Total Weight: <span id="weight">0</span>%</h3>
+        </form>
+
+        <hr/>
+
+        <h2>Final Grade Calculator</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Final Eval Weight</td>
+                    <td><input type="text" size="3" id="finalWeight" />%</td>
+                </tr>
+                <tr>
+                    <td>Desired Overall Mark</td>
+                    <td><input type="text" size="3" id="finalMark" />%</td>
+                </tr>
+            </table>
+            <input type="button" value="Calculate" class="button" id="finalButton" />
+            <h3>Required Mark: <span id="requiredMark">0</span>%</h3>
+        </form>
+    </div>
+</body>
+
+</html>

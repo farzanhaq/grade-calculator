@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #e8e8e8;
+    color: #585858;
+    width: 165px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #333333;
+}
+
+h3 {
+    font-size: 12px;
+    color: #333333;
+}
+
+.button {
+    margin-top: 10px;
+    color: white;
+    background-color: #3d879d;
+    border-radius: 5%;
+    border-color: #3d879d;
+    border-style: none;
+}
